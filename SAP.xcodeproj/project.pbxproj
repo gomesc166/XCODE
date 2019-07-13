@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9E18A7E094684F7CC81417 /* Pods_SAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BA6A5C9F4D0A57EBE3D4D /* Pods_SAPTests.framework */; };
+		40B2FE88A3E22A02AE866038 /* Pods_SAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7936774D75737DD41E7F4EAF /* Pods_SAP.framework */; };
+		7E6A5940D3489B14E8A7CB82 /* Pods_SAPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6972C1EB281EC82513CF57 /* Pods_SAPUITests.framework */; };
+		C75AFFC222C8E15200678E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75AFFC122C8E15200678E4D /* AppDelegate.swift */; };
+		C75AFFC422C8E15200678E4D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75AFFC322C8E15200678E4D /* MasterViewController.swift */; };
+		C75AFFC622C8E15200678E4D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75AFFC522C8E15200678E4D /* DetailViewController.swift */; };
+		C75AFFC922C8E15200678E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75AFFC722C8E15200678E4D /* Main.storyboard */; };
+		C75AFFCB22C8E15300678E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75AFFCA22C8E15300678E4D /* Assets.xcassets */; };
+		C75AFFCE22C8E15300678E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75AFFCC22C8E15300678E4D /* LaunchScreen.storyboard */; };
+		C75AFFD922C8E15300678E4D /* SAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75AFFD822C8E15300678E4D /* SAPTests.swift */; };
+		C75AFFE422C8E15300678E4D /* SAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75AFFE322C8E15300678E4D /* SAPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75AFFD522C8E15300678E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75AFFB622C8E15200678E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75AFFBD22C8E15200678E4D;
+			remoteInfo = SAP;
+		};
+		C75AFFE022C8E15300678E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75AFFB622C8E15200678E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75AFFBD22C8E15200678E4D;
+			remoteInfo = SAP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		240FA0236CF70688D1BAA560 /* Pods-SAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPTests.release.xcconfig"; path = "Target Support Files/Pods-SAPTests/Pods-SAPTests.release.xcconfig"; sourceTree = "<group>"; };
+		24EEE9A916B16CF8683A2AE7 /* Pods-SAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAP.debug.xcconfig"; path = "Target Support Files/Pods-SAP/Pods-SAP.debug.xcconfig"; sourceTree = "<group>"; };
+		28A3F50F81F44B31449430C7 /* Pods-SAPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPUITests.release.xcconfig"; path = "Target Support Files/Pods-SAPUITests/Pods-SAPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A3AB4A36265BC88CD2F2D9C /* Pods-SAPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPTests.debug.xcconfig"; path = "Target Support Files/Pods-SAPTests/Pods-SAPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63A0B871BB9C5E431C10EC4A /* Pods-SAPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPUITests.debug.xcconfig"; path = "Target Support Files/Pods-SAPUITests/Pods-SAPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7936774D75737DD41E7F4EAF /* Pods_SAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6972C1EB281EC82513CF57 /* Pods_SAPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0BA6A5C9F4D0A57EBE3D4D /* Pods_SAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75AFFBE22C8E15200678E4D /* SAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75AFFC122C8E15200678E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C75AFFC322C8E15200678E4D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C75AFFC522C8E15200678E4D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C75AFFC822C8E15200678E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C75AFFCA22C8E15300678E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75AFFCD22C8E15300678E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C75AFFCF22C8E15300678E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75AFFD422C8E15300678E4D /* SAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75AFFD822C8E15300678E4D /* SAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPTests.swift; sourceTree = "<group>"; };
+		C75AFFDA22C8E15300678E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75AFFDF22C8E15300678E4D /* SAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75AFFE322C8E15300678E4D /* SAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPUITests.swift; sourceTree = "<group>"; };
+		C75AFFE522C8E15300678E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADB59E0FBBCA5BFA66CE158 /* Pods-SAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAP.release.xcconfig"; path = "Target Support Files/Pods-SAP/Pods-SAP.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75AFFBB22C8E15200678E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B2FE88A3E22A02AE866038 /* Pods_SAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75AFFD122C8E15300678E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9E18A7E094684F7CC81417 /* Pods_SAPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75AFFDC22C8E15300678E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6A5940D3489B14E8A7CB82 /* Pods_SAPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD0F7CBB0299C44B9A087F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7936774D75737DD41E7F4EAF /* Pods_SAP.framework */,
+				9B0BA6A5C9F4D0A57EBE3D4D /* Pods_SAPTests.framework */,
+				8B6972C1EB281EC82513CF57 /* Pods_SAPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD689F4F176BB8025505856 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24EEE9A916B16CF8683A2AE7 /* Pods-SAP.debug.xcconfig */,
+				CADB59E0FBBCA5BFA66CE158 /* Pods-SAP.release.xcconfig */,
+				4A3AB4A36265BC88CD2F2D9C /* Pods-SAPTests.debug.xcconfig */,
+				240FA0236CF70688D1BAA560 /* Pods-SAPTests.release.xcconfig */,
+				63A0B871BB9C5E431C10EC4A /* Pods-SAPUITests.debug.xcconfig */,
+				28A3F50F81F44B31449430C7 /* Pods-SAPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C75AFFB522C8E15200678E4D = {
+			isa = PBXGroup;
+			children = (
+				C75AFFC022C8E15200678E4D /* SAP */,
+				C75AFFD722C8E15300678E4D /* SAPTests */,
+				C75AFFE222C8E15300678E4D /* SAPUITests */,
+				C75AFFBF22C8E15200678E4D /* Products */,
+				9DD689F4F176BB8025505856 /* Pods */,
+				9BD0F7CBB0299C44B9A087F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C75AFFBF22C8E15200678E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75AFFBE22C8E15200678E4D /* SAP.app */,
+				C75AFFD422C8E15300678E4D /* SAPTests.xctest */,
+				C75AFFDF22C8E15300678E4D /* SAPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75AFFC022C8E15200678E4D /* SAP */ = {
+			isa = PBXGroup;
+			children = (
+				C75AFFC122C8E15200678E4D /* AppDelegate.swift */,
+				C75AFFC322C8E15200678E4D /* MasterViewController.swift */,
+				C75AFFC522C8E15200678E4D /* DetailViewController.swift */,
+				C75AFFC722C8E15200678E4D /* Main.storyboard */,
+				C75AFFCA22C8E15300678E4D /* Assets.xcassets */,
+				C75AFFCC22C8E15300678E4D /* LaunchScreen.storyboard */,
+				C75AFFCF22C8E15300678E4D /* Info.plist */,
+			);
+			path = SAP;
+			sourceTree = "<group>";
+		};
+		C75AFFD722C8E15300678E4D /* SAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75AFFD822C8E15300678E4D /* SAPTests.swift */,
+				C75AFFDA22C8E15300678E4D /* Info.plist */,
+			);
+			path = SAPTests;
+			sourceTree = "<group>";
+		};
+		C75AFFE222C8E15300678E4D /* SAPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C75AFFE322C8E15300678E4D /* SAPUITests.swift */,
+				C75AFFE522C8E15300678E4D /* Info.plist */,
+			);
+			path = SAPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75AFFBD22C8E15200678E4D /* SAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75AFFE822C8E15300678E4D /* Build configuration list for PBXNativeTarget "SAP" */;
+			buildPhases = (
+				9539A0100104ED8E69BE697C /* [CP] Check Pods Manifest.lock */,
+				C75AFFBA22C8E15200678E4D /* Sources */,
+				C75AFFBB22C8E15200678E4D /* Frameworks */,
+				C75AFFBC22C8E15200678E4D /* Resources */,
+				5B967B209D4B516CC21F79BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAP;
+			productName = SAP;
+			productReference = C75AFFBE22C8E15200678E4D /* SAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C75AFFD322C8E15300678E4D /* SAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75AFFEB22C8E15300678E4D /* Build configuration list for PBXNativeTarget "SAPTests" */;
+			buildPhases = (
+				E96915AE820C88C685E735D4 /* [CP] Check Pods Manifest.lock */,
+				C75AFFD022C8E15300678E4D /* Sources */,
+				C75AFFD122C8E15300678E4D /* Frameworks */,
+				C75AFFD222C8E15300678E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75AFFD622C8E15300678E4D /* PBXTargetDependency */,
+			);
+			name = SAPTests;
+			productName = SAPTests;
+			productReference = C75AFFD422C8E15300678E4D /* SAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C75AFFDE22C8E15300678E4D /* SAPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75AFFEE22C8E15300678E4D /* Build configuration list for PBXNativeTarget "SAPUITests" */;
+			buildPhases = (
+				F0CDEBD67ED9C356ADDD4385 /* [CP] Check Pods Manifest.lock */,
+				C75AFFDB22C8E15300678E4D /* Sources */,
+				C75AFFDC22C8E15300678E4D /* Frameworks */,
+				C75AFFDD22C8E15300678E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75AFFE122C8E15300678E4D /* PBXTargetDependency */,
+			);
+			name = SAPUITests;
+			productName = SAPUITests;
+			productReference = C75AFFDF22C8E15300678E4D /* SAPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75AFFB622C8E15200678E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Chamal Gomes";
+				TargetAttributes = {
+					C75AFFBD22C8E15200678E4D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C75AFFD322C8E15300678E4D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C75AFFBD22C8E15200678E4D;
+					};
+					C75AFFDE22C8E15300678E4D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C75AFFBD22C8E15200678E4D;
+					};
+				};
+			};
+			buildConfigurationList = C75AFFB922C8E15200678E4D /* Build configuration list for PBXProject "SAP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75AFFB522C8E15200678E4D;
+			productRefGroup = C75AFFBF22C8E15200678E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75AFFBD22C8E15200678E4D /* SAP */,
+				C75AFFD322C8E15300678E4D /* SAPTests */,
+				C75AFFDE22C8E15300678E4D /* SAPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75AFFBC22C8E15200678E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75AFFCE22C8E15300678E4D /* LaunchScreen.storyboard in Resources */,
+				C75AFFCB22C8E15300678E4D /* Assets.xcassets in Resources */,
+				C75AFFC922C8E15200678E4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75AFFD222C8E15300678E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75AFFDD22C8E15300678E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B967B209D4B516CC21F79BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SAP/Pods-SAP-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SAP/Pods-SAP-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SAP/Pods-SAP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9539A0100104ED8E69BE697C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96915AE820C88C685E735D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CDEBD67ED9C356ADDD4385 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75AFFBA22C8E15200678E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75AFFC622C8E15200678E4D /* DetailViewController.swift in Sources */,
+				C75AFFC422C8E15200678E4D /* MasterViewController.swift in Sources */,
+				C75AFFC222C8E15200678E4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75AFFD022C8E15300678E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75AFFD922C8E15300678E4D /* SAPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75AFFDB22C8E15300678E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75AFFE422C8E15300678E4D /* SAPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75AFFD622C8E15300678E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75AFFBD22C8E15200678E4D /* SAP */;
+			targetProxy = C75AFFD522C8E15300678E4D /* PBXContainerItemProxy */;
+		};
+		C75AFFE122C8E15300678E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75AFFBD22C8E15200678E4D /* SAP */;
+			targetProxy = C75AFFE022C8E15300678E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C75AFFC722C8E15200678E4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75AFFC822C8E15200678E4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C75AFFCC22C8E15300678E4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75AFFCD22C8E15300678E4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C75AFFE622C8E15300678E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C75AFFE722C8E15300678E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75AFFE922C8E15300678E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EEE9A916B16CF8683A2AE7 /* Pods-SAP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chamalgomes.SAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C75AFFEA22C8E15300678E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADB59E0FBBCA5BFA66CE158 /* Pods-SAP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chamalgomes.SAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C75AFFEC22C8E15300678E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3AB4A36265BC88CD2F2D9C /* Pods-SAPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chamalgomes.SAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAP.app/SAP";
+			};
+			name = Debug;
+		};
+		C75AFFED22C8E15300678E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240FA0236CF70688D1BAA560 /* Pods-SAPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chamalgomes.SAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAP.app/SAP";
+			};
+			name = Release;
+		};
+		C75AFFEF22C8E15300678E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A0B871BB9C5E431C10EC4A /* Pods-SAPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chamalgomes.SAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SAP;
+			};
+			name = Debug;
+		};
+		C75AFFF022C8E15300678E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A3F50F81F44B31449430C7 /* Pods-SAPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chamalgomes.SAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SAP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75AFFB922C8E15200678E4D /* Build configuration list for PBXProject "SAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75AFFE622C8E15300678E4D /* Debug */,
+				C75AFFE722C8E15300678E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75AFFE822C8E15300678E4D /* Build configuration list for PBXNativeTarget "SAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75AFFE922C8E15300678E4D /* Debug */,
+				C75AFFEA22C8E15300678E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75AFFEB22C8E15300678E4D /* Build configuration list for PBXNativeTarget "SAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75AFFEC22C8E15300678E4D /* Debug */,
+				C75AFFED22C8E15300678E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75AFFEE22C8E15300678E4D /* Build configuration list for PBXNativeTarget "SAPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75AFFEF22C8E15300678E4D /* Debug */,
+				C75AFFF022C8E15300678E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75AFFB622C8E15200678E4D /* Project object */;
+}
